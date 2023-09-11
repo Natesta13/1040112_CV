@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: #191c32;
+    color: #fff
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.brand{
+    margin-top: -7px;
+}
+
+.brand span{
+    color:#7DD1A7;
+}
+
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu li{
+    list-style: none;
+
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.menu .activa{
+    color: #7DD1A7;
+
+    
+}
+
+.menu a:hover{
+    background-color: #7DD1A7;
+    color:#191c32;
+    border-radius: 5px;
+    transition: ease-in .4s;
+}
+
+.main{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80 vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding: 60px 50px;
+}
+section{
+    height: 100vh;
+}
+
+.descargarCv{
+    padding: 10px 20px;
+    background-color: #7DD1A7;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(179,89,68, .69);
+
+}
+
+.descargarCv:hover{
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.main img{
+    width: 400px;
+    border: 7px solid #7DD1A7;
+    height: 400px;
+    border-radius: 419px;
+}
+
+.mainSobreMi{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80 vh;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    padding: 3em;
+
+}
+
+
+.divider{
+    height: 4px;
+    width: 60px;
+    background-color: #7DD1A7;
+}
+
+.mainSobreMi h3{
+    font-size: 1.5em;
+    color:#fff;
+    padding: 10px;
+        
+    }
+
+.mainEducacion{
+        margin: 0 auto;
+        width: 80vw;
+        height: 80 vh;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        padding: 3em;
+    
+}
+    
+.mainEducacion h3{
+        font-size: 1.4em;
+        color:#ffffff9b ;
+        padding-top: 35px;
+}
+
+.mainEducacion h4{
+    font-size: 1.4em;
+    color:#7DD1A7;
+    padding-top: 35px;
+}
+
+.infoContentEducacion{
+    padding-top: 40px;
+    margin-left: 15%;
+}
+
+
+.mainExperiencia{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80 vh;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    padding: 3em;
+
+}
+.mainExperiencia h3{
+    font-size: 1.4em;
+    color:#ffffff9b ;
+    padding-top: 10px;
+}
+
+.mainExperiencia h4{
+font-size: 1.4em;
+color:#7DD1A7;
+padding-top: 20px;
+}
+
+.infoContentExperiencia{
+padding-top: 40px;
+margin-left: 15%;
+}
+
+.container-contact{
+    padding: 3em;
+    margin: 0 auto;
+    }
+
+.mainContactame{
+        margin: 0 auto;
+        width: 80vw;
+        height: 80 vh;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        padding: 3em;
+    
+    }
+
+.formulario{
+    display: flex;
+    flex-direction:column;
+    width: 30vw;
+    margin-top: 2em;
+}
+
+.formulario input{
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border:none;
+    border-bottom:1px solid #fff;
+    color: #fff;
+}
+
+.formulario textarea{
+    height: 150px;
+    background: none;
+    color: #fff;
+    padding: 1.5em;
+    border: 1px solid #fff;
+}
+
+.btn-submit{
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: #7DD1A7;
+    border-radius: 20px;
+    
+}
