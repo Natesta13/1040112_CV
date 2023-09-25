@@ -11,18 +11,26 @@
 <body>
     <div class="wrapper">
         <header>
-            <nav class="navbar">
+            <div class="menu-container">
                 <div class="brand">
-                    <h2>N<span>T</span></h2>
-                </div>
-                <ul class="menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="sobreMi.html">Sobre mi</a></li>
-                    <li><a href="educacion.html">Educacion</a></li>
-                    <li><a href="experiencia.html">Experiencia</a></li>
-                    <li><a class= "activa" href="contactame.html">Contactame</a></li>
-                </ul>
-            </nav>
+                        <h2>N<span>T</span></h2>
+                </div>                
+                <div class="menu"> 
+                    <div class="back_menu"></div>
+                    <nav>
+                        <input class="checkbox" type="checkbox" id="menuBurger">
+                        <img src="/imagenes/sanguchito.png" class= "burger-icono" alt="">
+                        
+                        <ul class="listaMenu">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="sobreMi.html">Sobre mi</a></li>
+                            <li><a href="educacion.html">Educación</a></li>
+                            <li><a href="experiencia.html">Experiencia</a></li>
+                            <li><a class= "activa" href="contactame.html">Contactame</a></li>
+                        </ul>
+                    </nav>
+                </div>                
+            </div>
         </header>
         <main class="mainContactame">
             <div class="contactame-head">
@@ -40,6 +48,7 @@
                         <button type="submit" class="btn-submit">
                             Enviar mensaje
                         </button>
+                        
                     </form>
                 </div>
             </div>
